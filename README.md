@@ -15,7 +15,7 @@ The model uses two remote sensing indices as inputs:
 
 - **y**: Dissolved Oxygen (DO) in ppm.
 
-## Scaling Approach (Crucial Step)
+## Scaling Approach (Important Step)
 
 Before feeding the inputs to the model(s), we used scaling.
 
@@ -32,3 +32,4 @@ This two-stage pipeline ensures numerical stability. First, Robust Scaling preve
 - **RF & SVR**:
   - **Hyperparameters**: Saved to `best_rf_hyperparameters.csv` and `best_svr_hyperparameters.csv`.
   - **Predictions**: `rf_test_predictions.csv` and `svr_test_predictions.csv`.
+
